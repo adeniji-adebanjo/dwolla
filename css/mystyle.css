@@ -123,3 +123,37 @@ nav ul.navbar-nav li .plant_4:hover{
     border-bottom: 2px solid green;
 }
 
+.image-hover {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .card-hover{
+    background-color: #d2d9e0;
+}
+.card-body{
+    /* width: 50%; */
+    /* color: rgba(49, 33, 33, 0); */
+}
+/* .card-hover, h3{
+      color: rgba(49, 33, 33, 0);
+  } */
+  .card-hover :hover{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(237,136,156,1) 95%);
+  }
+  .image-hover .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+  }
+  
+  .image-hover:hover .caption {
+    display: block;
+  }
+  
