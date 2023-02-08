@@ -1,0 +1,125 @@
+ .btn_1{
+    border-style: solid;
+    border-color: linear-gradient(233.4deg, #953091 -29.53%, #f68f44 99.34%);
+}
+
+
+nav ul.navbar-nav li .drop_2 {
+    position: absolute;
+    display: none;
+    top: 120%;
+    left: 12%;
+    height: 17rem;
+    width: 15rem;
+    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+nav ul.navbar-nav li:hover .drop_2 {
+    display: block;
+}
+
+nav ul.navbar-nav li .plant_1:hover{
+    border-bottom: 2px solid green;
+} 
+
+nav ul.navbar-nav.nav-for-hover.d-none {
+    display: none!important;
+}
+
+@media (min-width: 992px) {
+    nav ul.navbar-nav.nav-for-hover.d-lg-flex {
+        display: flex!important;
+    }
+}
+
+nav ul.navbar-nav.nav-accordion.d-none {
+    display: none!important;
+}
+
+
+.try_1 li p{
+    font-size: 0.7rem;
+    color:#ca4c2f; 
+} 
+
+.btn_2{
+    border-radius: 10px;
+    background: linear-gradient(233.4deg, #953091 -29.53%, #f68f44 99.34%);
+}
+.block-information__background {
+    position: absolute;
+    z-index: 0;
+    right: 84%;
+    top: 107%;
+    background-image: url(/images/block-background.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+}
+
+.flexible-hero__heading {
+    font-weight: 600;
+    line-height: 45px;
+    font-size: 35px;
+}  
+
+nav ul.navbar-nav li .drop_3 {
+    position: absolute;
+    display: none;
+    top: 120%;
+    left: 22%;
+    height: 12rem;
+    width: 15rem;
+    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}   
+ nav ul.navbar-nav li:hover .drop_3 {
+    display: block;
+}
+nav ul.navbar-nav li .plant_2:hover{
+    border-bottom: 2px solid green;
+}  
+ 
+    
+nav ul.navbar-nav li .drop_4 {
+    position: absolute;
+    display: none;
+    top: 120%;
+    left: 38%;
+    height: 20rem;
+    width: 15rem;
+    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}   
+ nav ul.navbar-nav li:hover .drop_4 {
+    display: block;
+}
+nav ul.navbar-nav li .plant_3:hover{
+    border-bottom: 2px solid green;
+}  
+  
+nav ul.navbar-nav li .drop_5 {
+    position: absolute;
+    display: none;
+    top: 120%;
+    left: 47%;
+    height: 17rem;
+    width: 15rem;
+    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}   
+ nav ul.navbar-nav li:hover .drop_5 {
+    display: block;
+}
+nav ul.navbar-nav li .plant_4:hover{
+    border-bottom: 2px solid green;
+}
+
