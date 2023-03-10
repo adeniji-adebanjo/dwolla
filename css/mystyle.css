@@ -1,7 +1,7 @@
-.btn_1 {
+/* .btn_1 {
   border-style: solid;
-  border-color: linear-gradient(233.4deg, #953091 -29.53%, #f68f44 99.34%);
-}
+  border-color: linear-gradient(233.4deg, #953091 -29.53%,#ca4c2f 99.34%);
+} */
 
 nav ul.navbar-nav li .drop_2 {
   position: absolute;
@@ -192,3 +192,100 @@ nav ul.navbar-nav li .plant_4:hover {
 
 }
 
+.btn-link {
+  text-decoration: none !important;
+}
+
+hr{
+  border: none;
+    background-color: #302121;
+    color: #ccc;
+    height: 1px;
+}
+#accordion hr:hover{
+  background-color: #ff9100;
+  color: #302121;
+  height: 1px;
+}
+
+  .block-with-list-options__background {
+  position: absolute;
+  z-index: 0;
+  top: 60%;
+  right: 86%;
+  background-image: url(images/block-with-list-options__background);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  max-height: 400px;
+  height: 100%;
+  width: 100%;
+}
+/* .dock{
+  background-color: #292948;
+} */
+
+.icon {
+  border-bottom: 1px solid #292948;
+}
+
+.icon.bordered {
+  border-bottom: 1px solid #ca4c2f !important;
+}
+
+.card-icon .btn.btn-link {
+  color: #292948;
+}
+
+.card-icon.colored .btn.btn-link {
+  color: #ca4c2f;
+}
+
+.lead-items {
+  background: #eaedf3;
+}
+
+@media (max-width: 1580px) {
+  .container {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+    max-width: 1580px !important;
+  }
+}
+.Roboto-font {font-family: 'Roboto', sans-serif;}
+.btn-orange {
+  background-color: #ca4c2f;
+  color: #fff;
+}
+.btn_10{
+  color: #fff;
+}
+.desktop-navbar__gradient-button { 
+  padding: 11px 5px;
+  border: 3px solid transparent;
+ 
+}
+ .desktop-navbar__button {
+  padding: 0px;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  border: none;
+} 
+/* .btn-gradient, .btn-white-gradient {
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 5px;
+  background-clip: padding-box;
+}  */
+.icon3 {
+  background-color:#fff; 
+   /* color: #fff; 
+   border: 0px solid #d3430d;
+   padding: 20px 30px; */
+ }
+ .icon:hover {
+  background-color: #fff;
+  color: black;
+  /* padding: 20px 30px; */
+}

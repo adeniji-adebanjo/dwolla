@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #292948;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Check_mark" data-name="Check mark" transform="translate(-831 -3163)">
+    <g id="Ellipse_67" data-name="Ellipse 67" class="cls-1" transform="translate(831 3163)">
+      <circle class="cls-3" cx="10" cy="10" r="10"/>
+      <circle class="cls-4" cx="10" cy="10" r="9.5"/>
+    </g>
+    <path id="Path_25760" data-name="Path 25760" class="cls-2" d="M-8300.917-10107.354l2.417,2.364,5.045-5.978" transform="translate(9138.186 13280.979)"/>
+  </g>
+</svg>
